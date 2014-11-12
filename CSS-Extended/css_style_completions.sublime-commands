@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "CSS Completions: Delete Cache",
+        "command": "css_style_completion_delete_cache"
+    },
+    {
+        "caption": "CSS Completions: Prune Cache",
+        "command": "css_style_completion_prune_cache"
+    }
+]

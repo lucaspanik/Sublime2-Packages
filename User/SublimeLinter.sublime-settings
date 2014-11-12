@@ -1,0 +1,10 @@
+{ 
+   "sublimelinter": true, 
+   //"sublimelinter": "save-only",
+   "sublimelinter_executable_map": {
+      "html":"C:\\Program Files\\nodejs\\node.exe", 
+      "javascript":"C:\\Program Files\\nodejs\\node.exe",
+      "css":"C:\\Program Files\\nodejs\\node.exe",
+      "php":"C:\\xampp\\php\\php.exe" 
+   } 
+}

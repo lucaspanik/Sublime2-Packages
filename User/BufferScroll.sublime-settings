@@ -1,0 +1,16 @@
+{
+	"version": 7,
+
+   "remember_color_scheme" : true,
+
+   /* permite manter-se na sincronização de favoritos, marcas ou dobras em toda vistas clonados */
+   "synch_bookmarks" : true,
+   "synch_folds" : false,
+   "synch_marks" : false,
+
+   /* isto permite sincronizar a rolagem dos clones de uma visão */
+   "synch_scroll" : false,
+
+   /* The line you work with is automatically the vertical center of the screen. */
+   "typewriter_scrolling": false
+}

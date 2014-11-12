@@ -1,0 +1,8 @@
+{
+   "scope": "source.js -string -comment -constant",
+
+   "completions": [
+      { "trigger": ".add()", "contents": "add($1)$0" },
+      { "trigger": ".slideToggle()", "contents": "slideToggle(${1:duration}, ${2:easing}${3:[, callback]})$0" }
+   ]
+}
