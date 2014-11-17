@@ -20,7 +20,7 @@
     "high_visibility_style": "outline",
 
     // (scope|__default__|__bracket__)
-    "high_visibility_color": "__bracket__",
+    "high_visibility_color": "__default__",
 
     // Match brackets only when the cursor is touching the inside of the bracket
     "match_only_adjacent": false,
@@ -387,30 +387,30 @@
         },
         // User defined region styles
         "curly": {
-            "icon": "curly_bracket"
-            // "color": "brackethighlighter.curly",
-            // "style": "underline"
+            "icon": "curly_bracket",
+            "color": "brackethighlighter.curly",
+            "style": "underline"
         },
         "round": {
-            "icon": "round_bracket"
-            // "color": "brackethighlighter.round",
-            // "style": "underline"
+            "icon": "round_bracket",
+            "color": "brackethighlighter.round",
+            "style": "underline"
         },
         "square": {
             "icon": "square_bracket"
-            // "color": "brackethighlighter.square",
-            // "style": "underline"
+            //"color": "brackethighlighter.square",
+            //"style": "underline"
         },
         "angle": {
-            "icon": "angle_bracket"
-            // "color": "brackethighlighter.angle",
-            // "style": "underline"
+            "icon": "angle_bracket",
+            "color": "brackethighlighter.angle",
+            "style": "underline"
         },
         "tag": {
             "icon": "tag",
             // "endpoints": true,
-            // "color": "brackethighlighter.tag",
-            "style": "outline"
+            //"color": "brackethighlighter.tag",
+            "style": "underline"
         },
         "c_define": {
             "icon": "hash"
@@ -424,8 +424,8 @@
         },
         "double_quote": {
             "icon": "double_quote"
-            // "color": "brackethighlighter.quote",
-            // "style": "underline"
+            //"color": "brackethighlighter.quote",
+            //"style": "outline"
         },
         "regex": {
             "icon": "regex"

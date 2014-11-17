@@ -89,13 +89,8 @@
     "php_cs_fixer_executable_path": "",
 
     // Additional arguments you can specify into the application
-    //
-    // Example:
-    // {
-    //     "--level": "all"
-    // }
     "php_cs_fixer_additional_args": {
-        "--level": "all"
+
     },
 
 

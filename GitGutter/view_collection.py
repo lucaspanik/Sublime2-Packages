@@ -47,19 +47,23 @@ class ViewCollection:
 
     @staticmethod
     def diff(view):
-        return ViewCollection.get_handler(view).diff()
+        key = ViewCollection.get_key(view)
+        return ViewCollection.views[key].diff()
 
     @staticmethod
     def untracked(view):
-        return ViewCollection.get_handler(view).untracked()
+        key = ViewCollection.get_key(view)
+        return ViewCollection.views[key].untracked()
 
     @staticmethod
     def ignored(view):
-        return ViewCollection.get_handler(view).ignored()
+        key = ViewCollection.get_key(view)
+        return ViewCollection.views[key].ignored()
 
     @staticmethod
     def total_lines(view):
-        return ViewCollection.get_handler(view).total_lines()
+        key = ViewCollection.get_key(view)
+        return ViewCollection.views[key].total_lines()
 
     @staticmethod
     def git_time(view):
@@ -105,13 +109,3 @@ class ViewCollection:
             return ViewCollection.compare_against
         else:
             return "HEAD"
-
-    @staticmethod
-    def current_branch(view):
-        key = ViewCollection.get_key(view)
-        return ViewCollection.views[key].git_current_branch()
-
-    @staticmethod
-    def show_status(view):
-        key = ViewCollection.get_key(view)
-        return ViewCollection.views[key].show_status
